@@ -6,10 +6,10 @@ class LanguageSelector {
     constructor() {
         // Language data with names and external links
         this.languages = [
-            { code: 'en', name: 'English', localName: 'English', link: 'https://chronie-shizutoki.github.io/self-info-en' },
+            { code: 'en', name: 'English', localName: 'English', link: 'https://hyalurion.github.io/self-info-en' },
             { code: 'ja', name: '日本語', localName: 'Japanese', link: 'https://self-info-ja.netlify.app/' },
             { code: 'zh-Hans', name: '华文', localName: 'Simplified Chinese (SEA)', link: 'https://self-info-zh-hans.netlify.app/' },
-            { code: 'zh-TW', name: '繁體中文（台灣）', localName: 'Traditional Chinese (Taiwan)', link: 'https://chronie-shizutoki.github.io/self-info-zh-tw/' },
+            { code: 'zh-TW', name: '繁體中文（台灣）', localName: 'Traditional Chinese (Taiwan)', link: 'https://hyalurion.github.io/self-info-zh-tw/' },
         ];
         
         // Store original languages for restoration
